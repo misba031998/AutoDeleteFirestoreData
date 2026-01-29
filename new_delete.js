@@ -9,7 +9,7 @@ admin.initializeApp({
 const db = admin.firestore();
 const app = express();
 
-const TOTAL_LIMIT = 200;
+const TOTAL_LIMIT = 19999;
 const BATCH_SIZE = 500;
 
 async function deleteWithLimit(collectionName, limit) {
